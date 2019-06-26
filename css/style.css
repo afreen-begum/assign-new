@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -102,7 +103,6 @@ p {
     background: white;
     width: 100%;
     height: auto;
-    position: fixed;
     top: 0px;
     z-index: 9999;
 }
@@ -147,30 +147,8 @@ p {
 
 /* Carousel Styles */
 
-.headerImage img {
-    height: 700px;
-    width: 100%;
-    margin-top: 90px;
-}
-
-.headerImage {
-    position: relative;
-}
-
-.headerImage .headerText {
-    position: absolute;
-    top: 37%;
-    left: 50%;
-}
-
-.headerImage .headerText h3 {
-    color: white;
-    font-size: 80px;
-}
-
-.bgBrown {
-    background: #c7c9d1;
-    height: 200px;
+#carouselExampleCaptions img {
+    height: 600px !important;
 }
 
 /* End of Carousel Styles */
@@ -192,6 +170,23 @@ p {
 
 .feedback .feedbackGrid p {
     opacity: 0.9;
+}
+
+
+.pos_rel {
+    position: relative;
+}
+
+.pos_rel img {
+    height: 450px;
+}
+
+.pos_rel h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 60px;
 }
 
 /* End of Feedback Styles */
